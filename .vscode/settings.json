@@ -1,0 +1,10 @@
+{
+    "documenter.progress": {
+        "files": {
+            "\\src\\struct.ts": [
+                "setDebugOffset",
+                "struct"
+            ]
+        }
+    }
+}

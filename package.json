@@ -1,0 +1,23 @@
+{
+  "name": "pubsub-lib",
+  "version": "1.0.0",
+  "description": "Communication Library for PUBSUB supported sims",
+  "main": "dist/pubsub-lib.js",
+  "types": "dist/@types/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "ts:js": "webpack",
+    "ts:defs": "tsc --project tsconfig-emit-declaration.json",
+    "prebuild": "rmdir /S /Q dist &",
+    "build": "npm run ts:js && npm run ts:defs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.9.2",
+    "webpack-cli": "^4.10.0"
+  }
+}

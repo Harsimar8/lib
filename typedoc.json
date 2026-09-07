@@ -1,0 +1,9 @@
+{
+    "out": "docs",
+    "excludeExternals": true,
+    "excludeNotDocumented": true,
+    "excludeNotDocumentedKinds": ["Property", "Interface", "TypeAlias"],
+    "entryPointStrategy": "expand",
+    "exclude": ["**/*.spec.ts"],
+    "entryPoints": ["./src/"]
+}
